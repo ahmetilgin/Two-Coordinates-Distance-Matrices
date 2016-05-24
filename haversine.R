@@ -1,4 +1,4 @@
-x<-read.table(file="/home/valkyrie/Şehirler arası Mesafe/kooridnats.txt",header =FALSE,sep ="\t")
+x<-read.table(file="/home/valkyrie/Şehirler arası Mesafe/koordinates.txt",header =FALSE,sep ="\t")
 mesafeler<-function()
 {
   options(scipen=999)
